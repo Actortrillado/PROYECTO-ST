@@ -1,6 +1,12 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
+st.set_page_config(
+    page_title="imc",
+    page_icon="📱",
+    layout="wide"
+    
+
 # Título
 st.title("Calculadora de IMC (Índice de Masa Corporal)")
 st.write("Calcula tu IMC ingresando tu peso y altura, y observa tu resultado en el gráfico.")
@@ -95,4 +101,5 @@ if st.button("Calcular calorías"):
     calorias = tmb * factor
 
     # Mostrar resultado
+
     st.success(f"Para mantener tu peso, necesitas aproximadamente **{calorias:.0f} calorías al día**.")
