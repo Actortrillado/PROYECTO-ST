@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="imc",
     page_icon="📱",
     layout="wide"
-    
+      )
 
 # Título
 st.title("Calculadora de IMC (Índice de Masa Corporal)")
@@ -103,3 +103,4 @@ if st.button("Calcular calorías"):
     # Mostrar resultado
 
     st.success(f"Para mantener tu peso, necesitas aproximadamente **{calorias:.0f} calorías al día**.")
+
