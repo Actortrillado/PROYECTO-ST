@@ -25,6 +25,7 @@ st.markdown("**Salud Métrika**")
 
 st.write("#### Ubicación:")
 st.write("Santiago, Chile")
-st.write("####contacto")
+st.write("#### contacto")
 st.write("proyect@gmail.cl")
+
 
