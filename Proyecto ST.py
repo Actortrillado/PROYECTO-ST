@@ -2,11 +2,7 @@
 import streamlit as st
 
 
-st.set_page_config(
-    page_title="Creadores",
-    page_icon="📱",
-    layout="wide"
-    
+
 # Configura las propiedades de la página web que se mostrará en el navegador.
 st.set_page_config(
     # Establece el título de la pestaña del navegador.
@@ -89,3 +85,4 @@ st.write("ahora vamos a adjuntar el video de la imagen el cual es un video para 
 st.video("https://youtu.be/lHvfNnecQJI?si=bcgYUWsve5OysWBq")
 
 # Inicializa el objeto de navegación de Streamlit (experimental).
+
