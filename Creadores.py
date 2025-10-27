@@ -6,11 +6,11 @@ st.set_page_config(
     page_icon="🧑‍💻",
     layout="wide"
 )
-
+# titulo
 st.title("🧑‍💻 Creadores y Desarrolladores")
 st.write("---")
 
-st.markdown("""
+st.write("""
 Esta plataforma fue desarrollada con el compromiso de ofrecer herramientas claras y accesibles para el cálculo del **Índice de Masa Corporal (IMC)** y la gestión de la **Estimación de Conteo de Calorías**.
 """)
 
@@ -25,3 +25,6 @@ st.markdown("**Salud Métrika**")
 
 st.write("#### Ubicación:")
 st.write("Santiago, Chile")
+st.write("####contacto")
+st.write("proyect@gmail.cl")
+
